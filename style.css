@@ -167,3 +167,10 @@ a {
     object-fit: cover;
 
 }
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
