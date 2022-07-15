@@ -16,6 +16,11 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 
+
+}
+
+.container {
+    grid-template-rows: 300px;
 }
 
 .nav {
@@ -23,6 +28,7 @@ body {
     font-weight: 300;
 }
 
+.nav-item,
 .container-item {
     padding: 10px 20px;
     background-color: #DDDDDD;
@@ -30,4 +36,46 @@ body {
     border-radius: 2px;
     text-align: center;
 
+}
+
+.container-item:nth-of-type(1) {
+    grid-column: span 3;
+    grid-row: span 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.406), rgba(0, 0, 0, 0.806)), url("https://source.unsplash.com/1600x900/?dev");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding: 180px 50px;
+
+
+
+}
+
+.container-item:nth-of-type(1) h1 {
+
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.container-item:nth-of-type(1) p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.links {
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #333333;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
 }
