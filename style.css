@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: #CCCCCC;
+}
+
+.container,
+.nav {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+
+.nav {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container-item {
+    padding: 10px 20px;
+    background-color: #DDDDDD;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 2px;
+    text-align: center;
+
+}
